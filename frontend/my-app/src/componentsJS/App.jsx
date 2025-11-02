@@ -1,7 +1,19 @@
-import { useState } from 'react'
+import { useState } from 'react';
+
+import '../outputCSS/App.css';
+import Layout from './components/Layout'
+
+
+import { Routes, Route } from 'react-router-dom';
+
+
 
 function App() {
-  return <div className="App"></div>
+  return (
+      <Routes>
+        <Route path="/" element={<Layout />} />
+      </Routes>
+    )
 }
 
 export default App
