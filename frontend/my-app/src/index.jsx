@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 import './outputCSS/index.css'
-import App from './componentsJS/App.jsx'
+import App from './App.jsx'
 
 import { BrowserRouter } from 'react-router-dom';
 
